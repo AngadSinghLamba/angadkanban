@@ -57,6 +57,13 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        kanban: {
+          progress: "hsl(var(--kanban-progress))",
+          "tag-bg": "hsl(var(--kanban-tag-bg))",
+          "tag-text": "hsl(var(--kanban-tag-text))",
+          "column-bg": "hsl(var(--kanban-column-bg))",
+          "card-shadow": "hsl(var(--kanban-card-shadow))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
